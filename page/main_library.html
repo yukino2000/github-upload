@@ -1,0 +1,48 @@
+<div class="bar">
+    <input type="text" class="input_txt" placeholder="输入标准名称">
+    <button class="input_btn"><i class="fa fa-search"></i></button>
+    <div class="search_table">
+        <div>
+            <em>标准序号</em>
+            <input type="text" class="input_txt" placeholder="请输入标准序号">
+        </div>
+        <div>
+            <em>发布日期</em>
+            <input type="text" class="input_txt" placeholder="输入格式请按xxxx-xx-xx">
+        </div>
+        <div>
+            <em>实施日期</em>
+            <input type="text" class="input_txt" placeholder="输入格式请按xxxx-xx-xx">
+        </div>
+        <div>
+            <em>状态</em>
+            <select name="stardard_state">
+                <option value="全部">全部</option>
+                <option value="现行">现行</option>
+                <option value="废止">废弃</option>
+                <option value="即将实施">即将实施</option>
+            </select>
+        </div>
+    </div>
+</div>
+<div class="search_result_tip">标准名称中带有<i class="fa fa-asterisk" style="color:#FF4081"></i>的说明含有修改单，鼠标悬浮在上可获得修改单情况</div>
+<table class="search_result">
+    <thead>
+        <td>标准名称</td>
+        <td>标准号</td>
+        <td>发布日期</td>
+        <td>实施日期</td>
+        <td>状态</td>
+        <td>详细全文</td>
+    </thead>
+    <tbody></tbody>
+    <tfoot></tfoot>
+</table>
+<div class="directory_box">
+    <i class="fa fa-step-backward" aria-hidden="true"></i>
+    <input type="text" class="specify_num" value="1"> 
+    <i class="fa fa-step-forward" aria-hidden="true"></i>
+</div>
+<div class="float_modifysheet">
+    
+</div>
